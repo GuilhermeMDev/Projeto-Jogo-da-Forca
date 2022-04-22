@@ -2,11 +2,12 @@ require_relative 'sortear_palavra'
 
 #Aqui eu transformo a palavra escolhida em um array usando .split
 class ChecarLetra
-    attr_accessor :letra
+    attr_accessor :jogo
 
     def checar
-        letra = SortearPalavra.sortear
-        letra.split(//)
+        jogo = SortearPalavra.sortear
+        # jogo.split(//)
+        
     end
             
     
