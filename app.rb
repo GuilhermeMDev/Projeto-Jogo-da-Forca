@@ -9,7 +9,7 @@ jogo = SortearPalavra.sortear
 @check = jogo.split(//)
 puts "Bem vindo ao jogo da forca! \nChute uma letra: "
 @chute = gets.chomp
-puts print @check
+puts "A palavra sorteada é #{jogo.upcase}"
 
 #Aqui eu consegui chegar num ponto, onde cada execução me gera uma palavra e permite o usuario inserir uma string, caracter, pra comparar com o array.
 def comparador
