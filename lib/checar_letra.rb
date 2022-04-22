@@ -1,14 +1,10 @@
-require_relative 'sortear_palavra'
+# require_relative 'sortear_palavra'
 
-#Aqui eu transformo a palavra escolhida em um array usando .split
-class ChecarLetra
-    attr_accessor :jogo
-
-    def checar
-        jogo = SortearPalavra.sortear
-        # jogo.split(//)
-        
-    end
-            
+# #Agora apenas chamo o sorteio, e instancio no app.rb
+# class ChecarLetra
     
-end
+#     def checar
+#         SortearPalavra.sortear                
+#     end       
+    
+# end
